@@ -1,7 +1,7 @@
-# Specify your API key
+#1. SPECIFYING YOUR API KEY
 api_key="my_api_key"
 
-# Code
+#2. MAIN CODE
 from google import genai
 
 class FiveYearPlanPipeline:
@@ -59,7 +59,7 @@ class FiveYearPlanPipeline:
 
     return roadmap
 
-# Running the code
+#3. RUNNING THE CODE
 pipeline = FiveYearPlanPipeline(api_key=api_key)
 
 test_input = """
