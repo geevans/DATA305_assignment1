@@ -1,0 +1,70 @@
+# Specify your API key
+api_key="my_api_key"
+
+# Code
+from google import genai
+
+class FiveYearPlanPipeline:
+  def __init__(self, api_key):
+    self.client = genai.Client(api_key=api_key)
+    self.model = "gemini-2.5-flash"
+
+# Stage 1
+  def stage1_background(self, user_input):
+    prompt = f"""
+    Analyze the following problem or goal: {user_input}
+    Break this into an organized profile for the user, that consists of the following elements:
+    1. Main objectives of problem/goal (Top 1)
+    2. Skills or assets the user provides (Top 3)
+    3. Limitations or restrictions (Top 3)
+    4. Entities involved (Top 3)
+    """
+
+    response = self.client.models.generate_content(model=self.model, contents=prompt)
+    return response.text
+
+# Stage 2
+  def stage2_strategizing(self, organized_profile):
+    prompt = f"""
+    Based on the following organized profile you've created for this user, identify three concrete pathways to fixing their problem/acheiving their goal: {organized_profile}
+    For each pathway, briefly explain how it accomplishes their main objective and deploys their skills/assets.
+    """
+    response = self.client.models.generate_content(model=self.model, contents=prompt)
+    return response.text
+
+# Stage 3
+  def stage3_plan_construction(self, top_strategies):
+    prompt = f"""
+    Review the following pathways: {top_strategies}
+    Select the most reasonable one and create a roadmap that includes the following:
+      - First steps (next month)
+      - Short-term goals (next 1-2 years)
+      - Long-term criteria (next 3-5 years)
+    """
+    response = self.client.models.generate_content(model=self.model, contents=prompt)
+    return response.text
+
+# Connecting Stages 1-3
+  def full_pipeline(self,raw_input):
+    print(" --- Stage 1: Learning the Context --- ")
+    context_1 = self.stage1_background(raw_input)
+    print(context_1)
+
+    print(" --- Stage 2: Strategizing with Your Skills --- ")
+    analysis_2 = self.stage2_strategizing(context_1)
+    print(analysis_2)
+
+    print(" --- Stage 3: Creating a 5-year Plan --- ")
+    roadmap = self.stage3_plan_construction(analysis_2)
+
+    return roadmap
+
+# Running the code
+pipeline = FiveYearPlanPipeline(api_key=api_key)
+
+test_input = """
+"""
+
+final_result = pipeline.full_pipeline(test_input)
+
+print(final_result)
