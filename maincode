@@ -26,7 +26,7 @@ class FiveYearPlanPipeline:
 # Stage 2
   def stage2_strategizing(self, organized_profile):
     prompt = f"""
-    Based on the following organized profile you've created for this user, identify three concrete pathways to fixing their problem/acheiving their goal: {organized_profile}
+    Based on the following organized profile you've created for this user, identify three concrete pathways to fixing their problem/achieving their goal: {organized_profile}
     For each pathway, briefly explain how it accomplishes their main objective and deploys their skills/assets.
     """
     response = self.client.models.generate_content(model=self.model, contents=prompt)
