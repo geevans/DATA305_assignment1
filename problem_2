@@ -1,4 +1,4 @@
-# RUNNING THE CODE -- Input #2: Entrepreneurship/business planning #
+# RUNNING THE CODE -- INPUT #2: Entrepreneurship/business planning #
 
 pipeline = FiveYearPlanPipeline(api_key=api_key)
 test_input2 = """I want to start a business but I only have $100 in my account.
