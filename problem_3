@@ -1,0 +1,156 @@
+# RUNNING THE CODE -- INPUT #3: Life or death situation
+
+pipeline = FiveYearPlanPipeline(api_key=api_key)
+test_input3 = """I am currently trapped underneath a massive boulder in the Rocklands of South Africa. I do not have service to call anyone and am almost out of food and water. My leg is bleeding. There is nobody around me and the temperatures are dropping to dangerously low levels.
+"""
+final_result3 = pipeline.full_pipeline(test_input3)
+print(final_result3)
+
+# OUTPUT #
+
+ --- Stage 1: Learning the Context --- 
+Here is an organized profile of the user's critical situation:
+
+---
+
+### User Profile: Trapped in Rocklands, South Africa
+
+**1. Main objectives of problem/goal (Top 1)**
+*   **Immediate Survival & Self-Rescue:** The primary goal is to survive the immediate threats (entrapment, exposure, injury, dehydration/starvation) and find a way to free oneself or signal for help.
+
+**2. Skills or assets the user provides (Top 3)**
+*   **Consciousness & Cognitive Ability:** The user is alive, aware, and capable of thinking, analyzing the situation, and formulating potential plans for survival and escape.
+*   **Remaining Physical Capacity:** Despite injury and entrapment, the user still possesses some degree of physical strength and the ability to move, manipulate, or attempt to leverage available elements (even if limited).
+*   **Will to Survive:** A crucial psychological asset, providing the motivation and resilience needed to endure extreme hardship and continue efforts for self-preservation.
+
+**3. Limitations or restrictions (Top 3)**
+*   **Physical Entrapment:** The user is pinned beneath a massive boulder, severely restricting movement, preventing escape, and potentially causing further injury.
+*   **Extreme Isolation & Communication Blackout:** No cell service and nobody around, rendering all external communication and immediate professional rescue efforts impossible.
+*   **Critical Resource Depletion & Environmental Exposure:** Critically low food and water supplies, coupled with rapidly dropping and dangerously low temperatures, compounded by a bleeding leg, all pose immediate life-threatening risks.
+
+**4. Entities involved (Top 3)**
+*   **The User:** The individual at the center of the crisis, struggling for survival.
+*   **The Massive Boulder:** The primary physical antagonist, directly trapping the user and causing injury.
+*   **The Environment (Rocklands, South Africa):** The remote, harsh, and increasingly hostile natural setting, characterized by extreme temperatures, lack of resources, and isolation.
+
+ --- Stage 2: Strategizing with Your Skills --- 
+Here are three concrete pathways to fixing the user's problem/achieving their goal:
+
+---
+
+### Pathway 1: Direct Self-Extrication through Leverage and Manipulation
+
+*   **Accomplishes Main Objective:** This pathway directly addresses the primary goal of "Immediate Survival & Self-Rescue" by focusing on freeing the user from the physical entrapment. Successfully shifting the boulder, even slightly, would alleviate pressure, prevent further injury, and potentially allow the user to escape or access critical resources.
+*   **Deploys Skills/Assets:**
+    *   **Consciousness & Cognitive Ability:** The user must analyze the boulder's position, identify potential pivot points or weak spots, and strategize the safest and most effective sequence of movements to apply force without causing further injury. They need to think critically about leverage.
+    *   **Remaining Physical Capacity:** This pathway heavily relies on the user's physical strength to push, pull, wedge, or manipulate the boulder or surrounding smaller rocks to create space. Even limited mobility can be used for targeted force application.
+    *   **Will to Survive:** Provides the immense determination and pain tolerance needed to repeatedly attempt strenuous and potentially painful maneuvers, pushing physical limits despite the immediate discomfort and risk.
+
+### Pathway 2: Localized Signal Generation and Attention Attraction
+
+*   **Accomplishes Main Objective:** While remote and isolated, this pathway aims to facilitate rescue by making the user's presence known to any *potential* passersby (e.g., other hikers, eventual search parties). It doesn't directly free the user but dramatically increases the chances of being discovered and receiving external aid, thus achieving self-rescue via others.
+*   **Deploys Skills/Assets:**
+    *   **Consciousness & Cognitive Ability:** The user needs to devise a strategic and energy-efficient system for signaling (e.g., rhythmic shouting, banging rocks). They must identify and utilize any reflective or brightly colored items within reach to create visual signals that might catch an eye from a distance, considering sun angle and potential sightlines.
+    *   **Remaining Physical Capacity:** Using their voice to shout for help, banging rocks together to create a distinctive sound, or using hands/feet (even with limited movement) to position items for visual signaling.
+    *   **Will to Survive:** Sustains the effort to signal consistently, even without immediate response, maintaining hope and persistence in the face of extreme isolation and the energy drain of repeated attempts.
+
+### Pathway 3: Strategic Prolonged Survival and Resource Management
+
+*   **Accomplishes Main Objective:** This pathway is crucial if immediate extrication or signaling fails. It aims to extend the user's life as long as possible under harsh conditions, thereby maximizing the window for eventual, indirect rescue (e.g., a search party eventually coming through the area days later). This is about ensuring survival long enough for rescue to become viable.
+*   **Deploys Skills/Assets:**
+    *   **Consciousness & Cognitive Ability:** The user must critically assess and rigorously ration remaining food and water supplies. They need to prioritize actions like managing the bleeding leg, developing strategies to combat rapidly dropping temperatures (e.g., minimizing movement, seeking windbreaks, using available materials for insulation), and mentally preparing for long-term endurance.
+    *   **Remaining Physical Capacity:** Conserve energy by minimizing non-essential movement, perform basic self-first aid on the leg (e.g., applying pressure), and execute small, deliberate actions to improve environmental protection (e.g., shifting small stones to create a slight barrier against wind).
+    *   **Will to Survive:** This is the bedrock of prolonged survival. It provides the immense mental fortitude to endure pain, hunger, thirst, and extreme cold, allowing the user to make rational decisions under immense stress and resist the urge to give up.
+
+ --- Stage 3: Creating a 5-year Plan --- 
+The user's core problem is immediate physical entrapment and injury in a remote, isolated location, with the overarching goal being "Immediate Survival & Self-Rescue."
+
+Let's review the pathways:
+
+---
+
+### Pathway Review:
+
+*   **Pathway 1: Direct Self-Extrication through Leverage and Manipulation**
+    *   **Assessment:** This pathway offers the most immediate and direct solution if successful. However, its feasibility is highly questionable given the description ("trapped by a boulder," "bleeding leg," "remote and isolated"). Boulders are immensely heavy, and attempting to move one while injured carries a significant risk of further, potentially fatal, injury (e.g., crushing, instability, exacerbating the leg wound). It relies heavily on an optimistic assessment of the user's remaining physical capacity and the boulder's characteristics. While it's a tempting first thought, it's often a low-probability, high-risk strategy in dire circumstances.
+    *   **Reasonableness:** **Low** as a primary, sustained strategy due to extreme risk and probable lack of physical capacity or mechanical advantage.
+
+*   **Pathway 2: Localized Signal Generation and Attention Attraction**
+    *   **Assessment:** This pathway directly attempts to *bring about* rescue by leveraging external aid. It's an active, proactive strategy that requires less immediate physical strength than moving a boulder, focusing instead on clever use of available resources and cognitive ability. The main limitation is the "remote and isolated" description, which means the *probability* of success might be low, but the *potential impact* if successful is absolute. It's a critical component of any survival plan.
+    *   **Reasonableness:** **High** as a primary, immediate action following initial self-assessment and first aid. It's the most direct effort to achieve "self-rescue via others."
+
+*   **Pathway 3: Strategic Prolonged Survival and Resource Management**
+    *   **Assessment:** This pathway acknowledges the grim reality of a remote, isolated incident – that rescue may not be immediate. It shifts focus from active rescue attempts to *sustaining life* until rescue becomes viable. This is the bedrock of any long-term survival scenario. Without successfully managing resources, injury, and environment, any signaling or extrication attempts become moot if the user succumbs to exposure, dehydration, or injury. It prioritizes keeping the user alive long enough for *any* rescue efforts to succeed.
+    *   **Reasonableness:** **Highest** as the foundational, overarching strategy for "Immediate Survival & Self-Rescue." It provides the framework within which other actions (like signaling) can be sustained.
+
+---
+
+### Selection of the Most Reasonable Pathway:
+
+While Pathway 2 (Signaling) is the most proactive *attempt* at rescue, **Pathway 3 (Strategic Prolonged Survival and Resource Management)** is the **most reasonable foundational pathway** for achieving the ultimate goal of "Immediate Survival & Self-Rescue."
+
+Here's why:
+1.  **Realism:** In a "remote and isolated" scenario with a "bleeding leg," immediate rescue is unlikely. The priority shifts from *getting out* to *staying alive* long enough for external help to arrive.
+2.  **Enabling Factor:** Prolonged survival makes *all other pathways* (even signaling) possible over time. If the user succumbs to injury, exposure, or dehydration, signaling becomes impossible.
+3.  **Comprehensive:** It addresses the core threats (injury, exposure, hunger, thirst, mental state) that will inevitably arise in such a situation.
+
+Pathway 2 is an *essential tactic* that must be executed *within* the framework of Pathway 3. Pathway 1 is a last resort or only viable in very specific, less dire circumstances. Therefore, the roadmap will be built around the principles of Pathway 3, incorporating elements of Pathway 2 as critical actions.
+
+---
+
+### Roadmap for "Strategic Prolonged Survival and Resource Management"
+
+Given the pathway's focus on long-term viability in a dire, immediate survival scenario, the requested timeframes (next month, 1-2 years, 3-5 years) must be interpreted metaphorically as **phases of survival effort** rather than literal calendar time. A person trapped by a boulder with a bleeding leg in a remote area would likely not survive "years." So, "next month" means "immediate critical actions (hours/first day)," "1-2 years" means "medium-term efforts (days/first week)," and "3-5 years" means "prolonged endurance (weeks/months, if the situation miraculously allows)."
+
+**Overarching Goal:** Maximize life expectancy and maintain physical/mental capacity to enable eventual rescue.
+
+---
+
+#### First Steps (Next Month - *Interpreted as: Immediate Critical Actions, First Hours/Day*)
+
+1.  **Immediate Self-Assessment & First Aid:**
+    *   **Objective:** Stop major bleeding, assess all injuries, stabilize.
+    *   **Actions:** Apply direct pressure to the bleeding leg wound. Use available clothing or material for a makeshift bandage/tourniquet if necessary and safe. Check for other injuries (head, spine, internal). Take stock of immediate pain levels and mobility.
+2.  **Environmental Assessment & Shelter Optimization:**
+    *   **Objective:** Understand immediate threats (cold, heat, rain, wind) and create primary protection.
+    *   **Actions:** Identify any natural windbreaks, overhangs, or depressions. Use available clothing, backpack, or debris to create a minimal barrier against the elements. Minimize heat loss by insulating from the ground.
+3.  **Water Source Identification & Rationing:**
+    *   **Objective:** Secure or plan for the most critical resource.
+    *   **Actions:** Locate any immediate water sources (dew, puddles, snowmelt). Strictly ration any existing water supply. Prioritize water over food.
+4.  **Signal Initiation (Concurrent with other steps):**
+    *   **Objective:** Make presence known to *any* potential nearby rescuers without expending excessive energy.
+    *   **Actions:** Use voice to shout for help at intervals. Bang rocks together. Position any reflective items (phone screen, shiny objects) to catch sunlight.
+
+---
+
+#### Short-Term Goals (Next 1-2 Years - *Interpreted as: Sustained Efforts, Days/First Week*)
+
+1.  **Consistent Injury Management:**
+    *   **Objective:** Prevent infection, manage pain, and stabilize the injured leg.
+    *   **Actions:** Regularly inspect the wound. Keep it as clean as possible. Continue applying pressure as needed. Fashion a makeshift splint if the leg is broken or unstable, to prevent further damage.
+2.  **Resource Optimization & Foraging (if applicable):**
+    *   **Objective:** Maximize remaining resources and cautiously explore additional options.
+    *   **Actions:** Re-evaluate and refine water collection methods. Rigorously ration food. If knowledge allows and the environment provides, cautiously identify any safe, edible plants or insects within reach, but prioritize energy conservation.
+3.  **Enhanced Signaling Strategy:**
+    *   **Objective:** Increase visibility/audibility for distant searchers while conserving energy.
+    *   **Actions:** Create larger, more permanent ground-to-air signals (SOS pattern with rocks/clothing). Maintain a signaling fire if safe and feasible (for smoke). Establish a rhythmic, energy-efficient sound signal.
+4.  **Mental Fortitude & Routine:**
+    *   **Objective:** Combat despair and maintain cognitive function.
+    *   **Actions:** Establish a daily routine for checking injuries, consuming resources, and signaling. Engage in mental exercises (counting, remembering details). Focus on small, achievable tasks each "day."
+
+---
+
+#### Long-Term Criteria (Next 3-5 Years - *Interpreted as: Prolonged Endurance & Readiness, Weeks/Months*)
+
+1.  **Sustained Viability for Rescue:**
+    *   **Objective:** Remain alive and in a condition to be successfully rescued.
+    *   **Criteria:** Maintain stable core body temperature, avoid critical dehydration, and keep wounds from becoming life-threateningly infected.
+2.  **Maximized Rescue Presence:**
+    *   **Objective:** Ensure the rescue site is as conspicuous as possible to search parties.
+    *   **Criteria:** Maintain large, clear ground-to-air signals. If a fire is sustainable, ensure it produces a visible smoke plume during daylight hours. Continue sound signaling, adapting to perceived search patterns.
+3.  **Physical & Mental Readiness:**
+    *   **Objective:** Be prepared to cooperate with rescuers upon their arrival.
+    *   **Criteria:** Maintain enough mental clarity to communicate effectively. Retain sufficient physical strength (e.g., ability to move limbs, assist in extrication if possible) to aid in the rescue process. Avoid succumbing to resignation or severe injury complications.
+4.  **Continuous Adaption:**
+    *   **Objective:** Respond effectively to changing environmental conditions or personal health.
+    *   **Criteria:** Successfully adapt shelter, resource collection, and signaling methods based on weather changes, body's condition, or observed patterns (e.g., distant sounds, aircraft).
