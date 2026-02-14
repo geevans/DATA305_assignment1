@@ -1,0 +1,132 @@
+# Running the code -- Input #1: Career Advice
+pipeline = FiveYearPlanPipeline(api_key=api_key)
+
+test_input = """I am graduating from William & Mary with a major in international relations and a minor in data science. My top skills are public speaking, spanish, coding (R, Python, SQL), and writing. I would like to work in Washington D.C. or Boston. I am interested in security and foreign diplomacy.
+"""
+
+final_result = pipeline.full_pipeline(test_input)
+
+print(final_result)
+
+# OUTPUT
+
+ --- Stage 1: Learning the Context --- 
+Here's an organized profile based on the provided information:
+
+**User Profile**
+
+1.  **Main objectives of problem/goal (Top 1)**
+    *   Secure an entry-level position in the security or foreign diplomacy sector.
+
+2.  **Skills or assets the user provides (Top 3)**
+    *   Coding (R, Python, SQL)
+    *   Public Speaking
+    *   Spanish
+
+3.  **Limitations or restrictions (Top 3)**
+    *   Geographic preference (Washington D.C. or Boston)
+    *   Sector preference (Security and Foreign Diplomacy)
+    *   Entry-level professional experience (implied by graduating)
+
+4.  **Entities involved (Top 3)**
+    *   The User (graduating student)
+    *   Prospective Employers (in security/foreign diplomacy)
+    *   William & Mary (educational institution)
+    
+ --- Stage 2: Strategizing with Your Skills --- 
+Here are three concrete pathways to fixing the user's problem/achieving their goal:
+
+---
+
+### Pathway 1: Focus on "Data-Driven Intelligence/Policy Analyst" Roles
+
+*   **How it accomplishes the main objective:** This pathway targets entry-level positions within government agencies (e.g., intelligence community, State Department analysis bureaus), defense contractors, or think tanks in Washington D.C. or Boston. Many such roles now require strong analytical skills, often with a data science component, for threat assessment, open-source intelligence (OSINT), or policy impact analysis.
+*   **How it deploys skills/assets:**
+    *   **Coding (R, Python, SQL):** Directly applicable for collecting, cleaning, analyzing, and visualizing vast datasets related to geopolitical events, social media trends, economic indicators, or security threats. This provides a unique technical edge for an entry-level candidate.
+    *   **Public Speaking:** Essential for briefing senior officials, presenting analytical findings to interagency groups, or communicating complex data insights in policy discussions.
+    *   **Spanish:** Highly valuable for analyzing intelligence from Spanish-speaking regions, conducting OSINT in Latin America, or specializing in regional security or diplomatic issues.
+
+---
+
+### Pathway 2: Target "International Program/Policy Support" with Linguistic & Communication Focus
+
+*   **How it accomplishes the main objective:** This pathway focuses on entry-level roles at international NGOs, government agencies (e.g., USAID, State Department's public diplomacy bureaus), or research institutions in D.C. or Boston that involve program coordination, public engagement, or policy advocacy. These roles often require strong communication, cross-cultural competence, and language skills for effective outreach and implementation.
+*   **How it deploys skills/assets:**
+    *   **Spanish:** Crucial for roles requiring engagement with Spanish-speaking populations, managing programs in Latin America, translating materials, or facilitating dialogues with foreign partners.
+    *   **Public Speaking:** Utilized for presenting program updates, leading workshops, representing the organization at public events, or advocating for specific policy positions.
+    *   **Coding (R, Python, SQL):** A significant differentiator, allowing the user to analyze program effectiveness data, manage stakeholder databases, automate reporting, or create compelling data visualizations for communication materials, making them a highly valuable, multi-skilled candidate.
+
+---
+
+### Pathway 3: Leverage Academic Networks for "Research & Analyst Fellowships"
+
+*   **How it accomplishes the main objective:** This pathway centers on securing competitive fellowships, post-graduate internships, or entry-level research positions primarily within academic institutions, think tanks (e.g., CSIS, Atlantic Council), or specialized government research arms in D.C. or Boston. These opportunities often serve as direct feeders into more permanent roles within the security and foreign diplomacy sectors.
+*   **How it deploys skills/assets:**
+    *   **Coding (R, Python, SQL):** Critical for conducting rigorous quantitative research, building analytical models for geopolitical forecasting, analyzing policy impacts, and creating sophisticated data visualizations for published reports and policy briefs.
+    *   **Public Speaking:** Essential for presenting research findings at internal briefings, academic conferences, or participating in expert panel discussions.
+    *   **Spanish:** Enables specialized research into Spanish-language primary and secondary sources, engaging with foreign academics or policymakers, or contributing significantly to regional specific research on Latin American security or diplomacy.
+    
+ --- Stage 3: Creating a 5-year Plan --- 
+After reviewing all three pathways, I recommend **Pathway 1: Focus on "Data-Driven Intelligence/Policy Analyst" Roles** as the most reasonable and advantageous choice.
+
+**Reasoning for Selection:**
+
+1.  **Maximal Skill Synergy:** Pathway 1 most directly and centrally leverages *all three* of your core skills (Coding, Public Speaking, Spanish). Your coding skills are foundational for "data-driven" analysis, public speaking is critical for briefing decision-makers, and Spanish provides a strong regional specialization, adding unique value from day one.
+2.  **High Demand & Growth Area:** The national security, intelligence, and foreign policy sectors are rapidly increasing their demand for individuals who can combine traditional analytical skills with modern data science techniques. This pathway positions you at the forefront of this trend.
+3.  **Direct Entry Points:** While competitive, there are clear entry-level roles as "Junior Intelligence Analyst," "Data Analyst (Foreign Policy)," or "OSINT Specialist" in government agencies, defense contractors, and think tanks. These roles are explicitly designed for candidates with technical and analytical prowess.
+4.  **Strong Career Progression:** This pathway offers excellent opportunities for growth into more senior analytical, strategic, or even leadership roles within the security and foreign diplomacy domains.
+5.  **Unique Value Proposition:** The combination of strong quantitative skills (R, Python, SQL) with communication and language abilities (Spanish) makes for a highly distinctive candidate profile, setting you apart from those with only policy backgrounds or only technical backgrounds.
+
+---
+
+### Roadmap for Pathway 1: Focus on "Data-Driven Intelligence/Policy Analyst" Roles
+
+**Main Objective:** Secure an entry-level position as a Data-Driven Intelligence/Policy Analyst within government agencies (e.g., intelligence community, State Department analysis bureaus), defense contractors, or think tanks in Washington D.C. or Boston.
+
+---
+
+#### First Steps (Next 3-6 Months):
+
+1.  **Portfolio Project Development:**
+    *   **Coding & Data Analysis (3-4 Projects):** Develop a public portfolio (e.g., GitHub, personal website) showcasing 3-4 impactful data analysis projects.
+        *   *Examples:*
+            *   **Geopolitical Trend Analysis:** Analyze open-source data (news articles, social media, economic indicators) to identify and visualize trends related to a specific geopolitical event or region (e.g., political instability in a Latin American country using Python for web scraping and sentiment analysis).
+            *   **OSINT Simulation:** Conduct an open-source intelligence investigation on a fictional or publicly available scenario, presenting your methodology and findings using data visualization (e.g., network analysis of publicly available information on a threat actor).
+            *   **Policy Impact Assessment:** Use a publicly available dataset (e.g., from the World Bank, UN) to model the potential impact of a foreign policy decision (e.g., aid allocation, sanctions) on a specific region.
+    *   **Spanish Integration:** Ensure at least one project *requires* Spanish language proficiency for data collection, analysis, or presentation.
+    *   **Presentation Integration:** For each project, prepare a 5-10 minute presentation summarizing findings, methodology, and policy implications.
+2.  **Targeted Resume & Cover Letter Refinement:**
+    *   **Quantify Achievements:** For every experience, quantify your impact. E.g., "Analyzed X GB of data to identify Y trends, leading to Z insights."
+    *   **Keyword Optimization:** Tailor your resume and cover letters to include keywords from job descriptions like "intelligence analysis," "OSINT," "geopolitical analysis," "threat assessment," "data science," "policy research," "Python," "R," "SQL."
+    *   **Skills Section:** Clearly list technical skills (R, Python, SQL, data visualization tools) and language proficiency (Spanish - specify level).
+3.  **Networking & Informational Interviews:**
+    *   **Identify Key Organizations:** Research specific agencies (DIA, NGA, State Dept INR, CIA), defense contractors (Booz Allen, Leidos, MITRE), and think tanks (CSIS, Atlantic Council, RAND, CNA) with data analysis/intelligence roles.
+    *   **LinkedIn Strategy:** Connect with professionals in these roles (alumni, mutual connections). Request informational interviews to understand daily tasks, necessary skills, and career paths. Ask for advice on resume tailoring and skill development.
+    *   **Industry Events:** Attend virtual or in-person webinars, conferences, and career fairs focused on national security, intelligence, or foreign policy.
+4.  **Security Clearance Awareness (for Gov/Contractor roles):**
+    *   Understand that many roles require a security clearance. Research the process (SF-86, polygraph, background investigation) and begin compiling necessary personal history information in preparation. This is a critical prerequisite.
+
+---
+
+#### Short-Term Goals (Next 1-2 Years):
+
+1.  **Secure First Role:** Obtain an entry-level position as a Junior Data Analyst, Intelligence Analyst (with a technical focus), OSINT Specialist, or Policy Analyst (quantitatively focused) within a target organization.
+2.  **Deepen Technical & Domain Expertise:**
+    *   **On-the-Job Learning:** Actively seek out projects that challenge your coding and data analysis skills, focusing on real-world intelligence or policy problems.
+    *   **Specialized Tools/Skills:** Become proficient in tools specific to your organization or domain (e.g., GIS software for geospatial intelligence, specific data visualization platforms, advanced statistical modeling relevant to threat prediction).
+    *   **Domain Focus:** Develop a deeper expertise in a specific region (e.g., Latin America, Western Europe) or thematic area (e.g., cyber security, economic sanctions, disinformation campaigns), leveraging your Spanish skills where relevant.
+3.  **Refine Communication & Briefing Skills:**
+    *   **Regular Briefings:** Consistently deliver clear, concise, and impactful briefings to internal teams and potentially external stakeholders. Seek feedback and actively work on areas for improvement.
+    *   **Report Writing:** Contribute to the drafting of intelligence reports, policy briefs, or analytical assessments, ensuring data-driven insights are effectively communicated.
+4.  **Internal Networking & Mentorship:**
+    *   Build strong relationships with colleagues and mentors within your organization. Learn from their experience and seek guidance on career progression.
+
+---
+
+#### Long-Term Criteria (Next 3-5 Years):
+
+1.  **Mid-Level Analyst & Project Lead:** Advance to a mid-level position (e.g., Senior Intelligence Analyst, Data Science Lead for Policy, Regional Analyst) where you are regularly leading complex analytical projects, mentoring junior analysts, and contributing to strategic planning.
+2.  **Recognized Subject Matter Expertise:** Be recognized as an expert in your niche (e.g., Latin American cyber intelligence, data-driven analysis of emerging threats). This could involve speaking at external conferences, publishing articles or white papers, or representing your organization in interagency working groups.
+3.  **Influencing Policy & Strategy:** Consistently deliver analytical products and briefings that directly inform high-level policy decisions, strategic initiatives, or operational responses within your organization and across government.
+4.  **Expanded Professional Network:** Cultivate a robust network of contacts across different agencies, think tanks, academia, and potentially international partners, particularly within your area of expertise.
+5.  **Continuous Professional Development:** Pursue advanced certifications, specialized training, or potentially a relevant Master's degree (e.g., International Relations with a quantitative focus, Data Science, Public Policy) if it aligns with your career goals and organizational support. This ensures you remain at the cutting edge of data science and foreign policy/intelligence analysis.
