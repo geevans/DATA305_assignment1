@@ -1,14 +1,12 @@
-# Running the code -- Input #1: Career Advice
-pipeline = FiveYearPlanPipeline(api_key=api_key)
+# RUNNING THE CODE -- INPUT #1: Career Advice #
 
+pipeline = FiveYearPlanPipeline(api_key=api_key)
 test_input = """I am graduating from William & Mary with a major in international relations and a minor in data science. My top skills are public speaking, spanish, coding (R, Python, SQL), and writing. I would like to work in Washington D.C. or Boston. I am interested in security and foreign diplomacy.
 """
-
 final_result = pipeline.full_pipeline(test_input)
-
 print(final_result)
 
-# OUTPUT
+# OUTPUT #
 
  --- Stage 1: Learning the Context --- 
 Here's an organized profile based on the provided information:
