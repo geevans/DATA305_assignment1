@@ -62,7 +62,7 @@ class FiveYearPlanPipeline:
 #3. RUNNING THE CODE
 pipeline = FiveYearPlanPipeline(api_key=api_key)
 
-test_input = """
+test_input = """INSERT TEST INPUT HERE
 """
 
 final_result = pipeline.full_pipeline(test_input)
